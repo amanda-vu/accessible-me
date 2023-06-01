@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: white;
   margin: 0;
   padding: 0;
 }
@@ -44,6 +44,10 @@ img {
   font-size: 1.25rem;
 }
 
+.main-nav ul li a:hover{
+  text-decoration: underline;
+}
+
 form input,
 form textarea {
   display: block;
@@ -69,3 +73,4 @@ form button {
 .site-footer {
   padding: 2rem 0;
 }
+
